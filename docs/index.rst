@@ -8,6 +8,19 @@
 Welcome to HydroBox's documentation!
 ====================================
 
+Stable branch
+~~~~~~~~~~~~~
+.. image:: https://travis-ci.org/mmaelicke/hydrobox.svg?branch=stable
+    :target: https://travis-ci.org/mmaelicke/hydrobox
+
+.. image:: https://readthedocs.org/projects/hydrobox/badge/?version=latest
+    :target: http://hydrobox.readthedocs.io/en/latest?badge=latest
+
+.. image:: https://codecov.io/gh/mmaelicke/hydrobox/branch/stable/graph/badge.svg
+    :target: https://codecov.io/gh/mmaelicke/hydrobox
+
+Development branch
+~~~~~~~~~~~~~~~~~~
 .. image:: https://travis-ci.org/mmaelicke/hydrobox.svg?branch=master
     :target: https://travis-ci.org/mmaelicke/hydrobox
 
@@ -29,10 +42,10 @@ About
 The HydroBox package is a toolbox for hydrological data analysis developed at the
 `Chair of Hydrology`_ at the `Karlsruhe Institute of Technology (KIT)`_.
 The HydroBox has a submodule called toolbox, which is a collection of functions and classes that accept common
-numpy and pandas input formats and wrap around scipy functionality. This way can:
+numpy and pandas input formats and wrap around scipy functionality. Its purpose is:
 
-- speed up common hydrological data analysis tasks
-- integrate fully with custom numpy/pandas/scipy code
+- to speed up common hydrological data analysis tasks
+- to integrate fully with custom numpy/pandas/scipy code
 
 Jump directly to the :doc:`installation section <installation>` or :doc:`get started <getting_started>`.
 
