@@ -2,6 +2,8 @@ import unittest
 from hydrobox.utils.decorators import accept, enforce
 import numpy as np
 from matplotlib.axes import SubplotBase
+import matplotlib as mpl
+mpl.use('Agg')
 import matplotlib.pyplot as plt
 
 
